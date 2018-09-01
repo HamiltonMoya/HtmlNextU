@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<meta name="author" content="Hamilton Moya Vega">
+	<meta name="keywords" content="ingeniero de sistemas,html,css,xml,javascript">
+	<meta name="description" content="ingeniero de sistemas">
+	<title>Hoja de Vida digital de Hamilton Moya Vega, pág.2</title>
+</head>
+<body>
+	<header>
+		<p>
+			<h1  align="center">
+				<svg width="380" height="150" style="border: 2px solid">
+					<image width="100%" height="190%" xlink:href="../images/dibujo.svg" x="0px" y="-40px" alt="Logotipo Hamilton" title="Logotipo" >	
+					Su navegador no soporta la etiqueta svg
+					</image>	
+				</svg><br/>
+				Hoja de Vida Hamilton Moya Vega
+			</h1>
+		</p>
+	</header>
+	<section>
+		<p>
+			<article>
+				<nav align="center">
+					<h2>
+						<a href="../index.html">Inicio</a> | 
+						<a href="educacion.html">Educación</a> | 
+						<a href="../html/experiencia.html">Experiencia</a>
+					</h2>
+				</nav>
+			</article>
+			<article>
+				<fieldset style="width:600px; height:220px; margin: 0px auto;">
+					<legend><strong>Datos personales</strong></legend>
+					<p>
+						<h2 style="display:inline;" >Nombre: </h2>
+						Hamilton
+					</p>
+					<p >
+						<h2 style="display:inline;" >Apellidos: </h2>
+						Moya Vega
+					</p>
+					<p>
+						<h2 style="display:inline;" >Profesión: </h2>
+						Ingeniero de Sistemas
+					</p>
+					<p>
+						<h3 style="display:inline;" >Fecha de Nacimiento: </h3>
+						09 de Julio de 1977
+					</p>
+					<p>
+						<h3 style="display:inline;" >Lugar de Nacimiento: </h3>
+						Barrancabermeja, Santander (Colombia)
+					</p>
+				</fieldset>			
+			</article>
+			<article>
+				<p>
+					<h2>Educación</h2>
+					<table border="1" cellpadding="10" cellspacing="0">
+						<thead>
+							<tr>
+								<th><h2>Institución</h2></th>
+								<th><h2>Ciudad</h2></th>
+								<th><h2>Programa</h2></th>
+								<th><h2>Graduado</h2></th>
+								<th><h2>Año</h2></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Universidad Autonoma de Bucaramanga</td>
+								<td>Bucaramanga</td>
+								<td>Ingeniería de Sistemas</td>
+								<td>Si</td>
+								<td>2001</td>
+							</tr>
+							<tr>
+								<td>Universidad Pontificia Bolivariana</td>
+								<td>Bucaramanga</td>
+								<td>Especialista en Seguridad Informática</td>
+								<td>Si</td>
+								<td>2012</td>
+							</tr>
+						</tbody>		
+					</table>
+				</p>
+			</article>
+	</section>
+	<form>
+		<fieldset style="width: 825px">
+			<legend><h2>Agregar estudios</h2></legend>
+		<p>
+			<label for="instituto" style="width: 10%; float: left;">Institución:</label>
+			
+			<input type="text" id="instituto" name="instituto" placeholder="Ej:Universidad xxx" required autofocus style="width: 400px">	
+		</p>
+		<p>
+			<label for="ciudad" style="width: 10%; float: left;">Ciudad:</label>
+			<input type="text" id="ciudad" name="ciudad" placeholder="Ej:Bucaramanga" required style="width: 400px">	
+		</p>
+		<p>
+			<label for="programa" style="width: 10%; float: left;">Programa:</label>
+			<input type="text" id="programa" name="programa" placeholder="Ej:Ingeniería de Sistemas" required style="width: 400px">	
+		</p>
+		<p>
+			<label for="grado" style="width: 10%; float: left;">Graduado:</label><br/>
+			<input type="radio" name="grado" value="Si" required>Si<br/>
+			<input type="radio" name="grado" value="No" required>No
+		</p>
+		<p>
+			<label for="anoGrado" style="width: 10%; float: left;">Año:</label>
+			<select id="anoGrado" name="anoGrado" style="width: 130px; text-align-last: right;" required="">
+				<option value="" selected="">Elige una opción</option>
+				<option>Sin graduar</option>
+				<option>1993</option>
+				<option>1994</option>
+				<option>1995</option>
+				<option>1996</option>
+				<option>1997</option>
+				<option>1998</option>
+				<option>1999</option>
+				<option>2000</option>
+				<option>2000</option>
+				<option>2001</option>
+				<option>2002</option>
+				<option>2003</option>
+				<option>2004</option>
+				<option>2005</option>
+				<option>2006</option>
+				<option>2007</option>
+				<option>2008</option>
+				<option>2009</option>
+				<option>2010</option>
+				<option>2011</option>
+				<option>2012</option>
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+				<option>2018</option>
+			</select>
+		</p>	
+		<p>
+			<input type="reset" name="reset" value="Borrar">
+			<input type="submit" name="enviar" value="Enviar">
+		</p>	
+		</fieldset>
+	</form>
+	<footer style="height:10px; align-self: center;">
+		<fieldset style="margin: 0px auto;">
+			<p align="center">
+				<strong>e-mail:</strong> hmoya_vega@hotmail.com <br/>
+       			<em> © 2018 Ing. especialista Hamilton Moya Vega</em>
+			</p>
+		</fieldset>
+	</footer>
+</body>
+</html>
